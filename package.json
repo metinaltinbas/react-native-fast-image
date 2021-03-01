@@ -9,10 +9,6 @@
     "image",
     "priority"
   ],
-  "homepage": "https://github.com/DylanVann/react-native-fast-image#readme",
-  "bugs": {
-    "url": "https://github.com/DylanVann/react-native-fast-image/issues"
-  },
   "license": "MIT",
   "author": "Dylan Vann <dylanvann@gmail.com> (http://dylanvann.com)",
   "files": [
@@ -24,11 +20,12 @@
   ],
   "main": "FastImage.js",
   "directories": {
+    "doc": "docs",
     "example": "example"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DylanVann/react-native-fast-image.git"
+    "url": "git+https://github.com/metinaltinbas/react-native-fast-image"
   },
   "scripts": {
     "format": "prettier --write --no-semi --single-quote --trailing-comma all ./FastImage.js ./example/*.js ./example/fastImage/*.js ./server/*.js",
